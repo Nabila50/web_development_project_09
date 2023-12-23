@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 100%;
+   
+}
+
+/*----------------Header Section----------------*/
+
+.navbar{                                  /*----------------use to make header----------------*/
+    background-color: black;
+}
+
+.container .navbar-nav .nav-link{
+    color: white;
+    padding:9px 30px;
+}
+
+.container .navbar-nav .nav-link:hover{
+    color: #fe8b38;
+    padding:9px 30px;
+}
+
+
+/*----------------Banner Section----------------*/
+
+.banner-section{
+    width: 100%;
+    background: url(img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-section .row{
+    display: flex;
+}
+
+.banner-section h1{
+    font-size:75px;
+    color: white;
+    font-weight: 700;
+}
+
+.banner-section h1 span{
+    color: #fe8b38;
+    font-weight: 400;
+}
+
+.banner-section h4{
+    font-size: 34px;
+    color: white;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    padding: 17px 0px;
+    letter-spacing: 3px;
+}
+
+.banner-section .img img{
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.banner-section .col-lg-7 p{
+    font-size: 17px;
+    word-spacing: 2px;
+    color: #717171;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 0px 0px 0px;
+}
+
+.banner-section .col-lg-7 .btn{
+    font-size: 17px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 30px; 
+    text-align: center;
+    text-decoration: transparent;
+    border: 3px solid white;
+    border-radius: 0px;
+    margin: 35px 0px;
+    font-weight: 600;
+}
+
+.banner-section .col-lg-7 .btn:hover{
+    color: #fff;
+    background: #fe8b38;
+    border: 3px solid #fe8b38;
+     
+}
+
+.banner-section .col-lg-7{
+    padding: 140px 60px;
+}
+
+.cus-height{
+    height: 100vh;
+}
+
+.banner-section form{
+    width: 350px;
+}
+
+.banner-section .card{
+    border: none;
+}
+.banner-section .card .card-header h2{
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform:capitalize;
+}
+.banner-section .card .card-header h2 span{
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fe8b38;
+    text-transform: uppercase;
+}
+.banner-section .card .card-header{
+    border-bottom: none;
+    background: #f5f5f5;
+}
+
+.banner-section .card .card-body{
+    padding: 15px 25px;
+}
+
+.banner-section .card .card-body .form-group{
+    padding: 18px 15px 25px 17px;
+}
+
+.banner-section .card .card-body .form-group .form-control{
+    border: none;
+    border-bottom: 1px solid #c2b8b8;
+    border-radius: 0;
+    padding: 2px 4px 2px;
+    margin-bottom: 0px;
+}
+
+.banner-section .card .card-footer{
+    padding: 10px 10px;
+    background:#fe8b38;
+    border: none;
+    text-align: center;
+     
+}
+
+.banner-section .card .card-footer a{
+    background: transparent;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+}
+ 
+
+
+/*------------------------------Lower Section Code Start--------------------------*/
+.lower{
+    border-radius: 0px 0px 4px 4px solid #030303;
+    background: white;
+}
+.lower .row{
+    margin: 20px 0px;
+    font-family:'Open Sans', sans-serif;
+    margin: 30px 0px 0px 0px;
+    
+    
+}
+
+.lower .col-lg-5 h4{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.lower .col-lg-5 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+}
+
+.lower .col-lg-7 img{
+    align-items: flex-start;
+    padding-left: 200px;
+    
+}
+ 
+
+
+/*------------------------------TAB Section Code Start----------------------------*/
+
+.tab-section{                                        /*----------just for understanding..later need to change-----------*/
+    width:100%;
+    padding: 130px 0px 137px 30px;
+    font-family:'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    font-family:'Open Sans', sans-serif;
+}
+ 
+ 
+
+.tab-section .nav-link{                              /*-----------just for understanding..later need to change-----------*/
+    width: 123px;
+    height: 129px;
+    background: #333333;
+    color: white;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.tab-section .tab-1{
+    border-radius: 4px 4px 0px 0px;
+}
+
+.tab-section .tab-2{
+    border-radius: 0px;
+}
+
+.tab-section .tab-3{
+    border-radius: 0px 0px 4px 4px;
+}
+
+.tab-section .nav-pills .nav-link.active {
+    background-color: #fe8b38;
+}
+
+.tab-section .tab-content{
+    padding: 10px 0px 0px 70px;
+}
+
+.tab-section .tab-content h4{
+    font-weight: 700;
+    color: #000;
+    font-family:'Open Sans', sans-serif;
+}
+ 
+.tab-section .tab-content p{
+    color: #a2a3a6;
+    margin: 50px 0px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.tab-section .col-lg-4 img {
+    padding-left: 154px;
+    padding-top: 40px;
+    width: 55vh;
+}
+
+.tab-section .tab-content .btn{
+    background-color: #fe8b38;
+    color: #fff;
+    border: 1px solid #fe8b38;
+    padding: 12px 24px;
+    border-radius: 3px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.tab-section .tab-content .btn:hover{
+    background-color: #fff;
+    color: #fe8b38;
+    border: 1px solid #fe8b38;
+}
+/*------------------------------Sub List Section Code Start----------------------------*/
+
+.sub-list{
+    padding: 120px 0px;
+}
+
+.sub-list .row .col-lg-7 {
+    padding: 14px 0px 12px 100px
+}
+
+.sub-list .col-lg-7 h4{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.sub-list .col-lg-7 img{
+    margin-left: 120px;
+    margin-top: 6px;
+     
+}
+
+.sub-list .col-lg-7 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    margin-left: 120px;
+    margin-top: 17px;
+}
+
+
+.sub-list .col-lg-7 .row{
+    padding: 0px 3px 0px 124px;
+}
+.sub-list .col-lg-7 .row .col-lg-2{
+    color:#fe8b38;
+    align-content: center;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.sub-list .col-lg-7 .row .col-lg-10{
+    padding-top: 32px;
+}
+
+.sub-list .col-lg-7 .row .col-lg-10 p{
+    margin: auto;
+
+}
+
+
+/*------------------------------Standar Picture Section Code Start----------------------------*/
+
+.standard-picture{
+    background: #f5f5f5;
+}
+
+.standard-picture .row{
+    padding-top: 126px;
+    padding-bottom: 80px;
+}
+
+.standard-picture .col-lg-7 h4{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+     
+}
+
+.standard-picture .col-lg-7 img{
+    margin: 15px 0px;
+     
+}
+
+.standard-picture .col-lg-7 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    margin-top: 12px;
+}
+
+/*------------------------------Awesome Section Code Start----------------------------*/
+.awesome .why-part{
+    text-align: center;
+    padding: 109px 0px 20px 0px;
+}
+
+.awesome .row{
+    text-align: center;
+    align-items: center;
+}
+
+.awesome .why-part h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.awesome .why-part p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    padding-top: 15px;
+}
+
+.awesome .img .circle{
+    color: #fe8b38;
+    position: relative;
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.awesome .img .bulb{
+    color: #fe8b38;
+    position: relative;
+    width: 5%;
+    left: -52px;
+    top: -9px;
+}
+.awesome .img .circle{
+    color: #fe8b38;
+    position: relative;
+    width: 18%;
+}
+.awesome .img .keyboard{
+    color: #fe8b38;
+    position: relative;
+    width: 7%;
+    left: -55px;
+    top: -9px;
+}
+
+.awesome .img .electricity{
+    color: #fe8b38;
+    position: relative;
+    width: 4%;
+    left: -49px;
+    top: -7px;
+}
+
+.awesome .row {
+    margin-top: 55px;
+    margin-bottom: 105px;
+}
+
+.awesome .row .col-lg-4 h4{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.awesome .row .col-lg-4 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+}
+
+/*------------------------------Pricing Section Code Start----------------------------*/
+
+.pricing{
+    padding: 109px 0px 20px 0px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.pricing .col-lg-12{
+    padding: 0px 0px 75px 0px
+  
+}
+
+.pricing .col-lg-12 h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.pricing .col-lg-12 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    padding-top: 15px;
+}
+
+.pricing .col-lg-4 .card-header{
+    background-color:  #212121;
+    border-bottom: 1px solid #fff;
+    padding: 15px 0px 15px;
+    color: #fff;
+}
+
+.pricing .col-lg-4 .c-body-1{
+    background-color:  #212121;
+    border-bottom: 7px solid #fe8b38;
+    padding: 14px 0px 16px 0px;
+    color: #fff;
+}
+
+.pricing .col-lg-4 .c-body-1 h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 110px;
+    margin-top: -20px;
+}
+
+.pricing .col-lg-4 .c-body-1 sub{
+    font-family:'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 35px;
+}
+ 
+.pricing .col-lg-4 .c-body-1 small{
+    font-family: 'Open Sans', sans-serif;
+    font-style: oblique;
+    font-weight:600;
+    color: #86878b;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.pricing .col-lg-4 .card-header{
+    padding: 20px 0px;
+}
+
+.pricing .col-lg-4 .c-body-2{
+    background-color: #fff;
+}
+
+.pricing .col-lg-4 .c-body-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #99999b;
+    text-transform: uppercase;
+    padding: 4px 0px 7px 0px; 
+    border-color: #ece8e8;
+}
+
+.pricing .row .col-lg-4 .c-body-1 p.para{
+    font-family: 'Open Sans', sans-serif;
+    background: #fe8b38 !important;
+    color: white;
+    margin: 20px 0px -16px 0px;
+    padding: 10px 0px 12px 0px;
+    font-weight: 700;
+    
+}
+
+
+
+/*------------------------------Our_Customer Section Code Start----------------------------*/
+
+.our-customer{
+    padding: 109px 0px 20px 0px;
+    text-align: center;
+}
+
+.our-customer .col-lg-12{
+    padding: 0px 0px 75px 0px
+}
+
+.our-customer .col-lg-12 h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.our-customer .col-lg-12 p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    padding-top: 15px;
+}
+ 
+.our-customer .main-box{
+    width: 319px;
+    height: 156px;
+    background-color: #f5f5f5;
+    padding: 20px 15px 0px;
+    position: relative;
+    text-align: left;
+    border-radius: 2px;
+}
+
+.our-customer .main-box p{
+    font-family:'Open Sans', sans-serif;
+    color: #a2a3a6;
+    text-align: left;
+    font-style: italic;
+}
+
+.our-customer .child-box{
+    width: 29px;
+    height: 28px;
+    background-color: #f5f5f5;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 140px;
+    left: 37px;
+}
+
+.our-customer .info{
+    display: flex;
+    padding: 28px 12px
+}
+
+.our-customer .info .name{
+    display: inline;
+    margin-left: 20px;
+}
+.our-customer .col-lg-4 .name h6{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+}
+
+.our-customer .info p{
+   color: #8d8e92;
+   text-align: left;
+}
+
+/*------------------------------ Stylish Section Code Start----------------------------*/
+
+.stylish{
+    width: 100%;
+    height: 45vh;
+    background: url(img/style_section.png) center center no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    color:#f5f5f5;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+
+.stylish h1{
+    
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px; 
+}
+
+
+.stylish .col-lg-12 img{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.stylish .col-lg-12 p{
+    padding-bottom: 5px;
+}
+
+.stylish .col-lg-12 .btn{
+    
+    font-size: 17px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 30px; 
+    text-align: center;
+    text-decoration: transparent;
+    border: 3px solid white;
+    border-radius: 0px;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+
+.stylish .col-lg-12 .btn:hover{
+    color: #fff;
+    background: #ff9b51;
+    border: 3px solid #ff9b51;
+     
+}
+/*------------------------------ Contact Section Code Start----------------------------*/
+
+.contact .container{
+    width: 100%;
+    padding: 100px 0px 0px 0px;
+   
+}
+
+.contact .row  .write .col-lg-12{
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap !important;
+  
+}
+
+.contact .col-lg-12 h1{
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact .write .col-lg-12  p{
+    font-family:'Open Sans', sans-serif;
+    padding-top: 15px;
+    color: #8d8e92;
+    text-align: center;
+}
+
+
+/*------------------------------ Form-Section Code Start----------------------------*/
+
+.form-section .row{
+    display: flex;
+    padding: 20px 0px 90px 0px;
+}
+
+ .form-section .row .col-lg-6{
+    padding-right: 67px;
+}
+
+.form-section .left .mb-3 input{
+    border: none; 
+    border-bottom: 1px solid #ddd;
+    padding: 40px 0px 10px 10px;
+    margin: 20px 10px;  
+    font-family:'Open Sans', sans-serif;
+    border-radius: 0px;
+    color: #c1c1c1;
+}
+
+.form-section .right .mb-3 input{
+    border: none; 
+    border-bottom: 1px solid #ddd;
+    padding: 34px 0px 198px 10px;
+    margin: 28px 0px 0px 0px; 
+    font-family:'Open Sans', sans-serif;
+    border-radius: 0px;
+    color: #c1c1c1;
+}
+
+.form-section .select{
+    text-align: center;
+}
+
+.form-section .btn{
+    border: 1px solid #ff9b51;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 3px;
+    color: #fff;
+    background: #ff9b51;
+    padding: 12px 20px 12px 20px;
+    align-items: center !important;
+    text-align: center;
+    margin-top: 30px;;
+}
+
+.form-section .btn:hover{
+    border: 1px solid #ff9b51;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 3px;
+    color: #000;
+    background: transparent;
+    padding: 12px 20px 12px 20px;
+    align-items: center !important;
+    text-align: center;
+    margin-top: 30px;;
+}
+
+/*------------------------------ Footer-Section Code Start----------------------------*/
+.footer-section{
+    width: 100%;
+    background: #000;
+}
+
+.footer-section .row{
+    display: flex;
+    align-items: center !important;
+}
+
+
+.footer-section .row .col-lg-12 .line{
+    display: flex;
+    color: #a2a3a6;
+    text-align: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.footer-section .line li{
+    list-style-type: none;
+}
+
+.line i{
+    font-size: 20px;
+    padding-left: 30px;
+}  
+
+.line i:hover{
+    color: #ff9b51;
+}
+
+
+.footer-section .col-lg-12 .axure{
+    text-align: center;
+    color: #a2a3a6;
+    font-size: 12px;
+}
